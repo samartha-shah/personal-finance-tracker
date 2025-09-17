@@ -1,6 +1,5 @@
-echo "streamlit" > requirements.txt
-echo "pandas" >> requirements.txt
-echo "plotly" >> requirements.txt
-git add requirements.txt
-git commit -m "Add requirements.txt for Streamlit Cloud"
-git push origin main
+streamlit==1.49.1
+pandas==2.3.2
+plotly==5.20.0
+numpy==2.3.3
+matplotlib==3.10.6
